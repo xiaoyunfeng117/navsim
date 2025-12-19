@@ -5,5 +5,8 @@ dependencies:
   - python=3.9
   - pip=23.3.1
   - nb_conda_kernels
+  - scikit-learn=1.2.2   # 用 conda-forge 装
+  - numpy=1.23.4         # navsim 需要这个版本
+  - opencv=4.7           # 提供 cv2，避免 pip 安装 opencv-python
   - pip:
     - -r requirements.txt
